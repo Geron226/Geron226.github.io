@@ -1,0 +1,61 @@
+body{
+	background-image: url(images/Background.png);
+}
+.block{
+	margin: 5px;
+	background-color: #181407;
+}
+#header{
+	height: 100px;
+}
+#Title{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#Nav > li{
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-style: italic;
+}
+#left-menu{
+	display: inline-block;
+	width: 20%;
+	height: 670px;
+}
+#portals{
+	font-size: 28px;
+	color: white;
+}
+#portals-images{
+	width: 250px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+#main{
+	display: inline-block;
+	width: 78%;
+	height: 670px;
+}
+#Dynmap{
+	color: white;
+	font-size: 32px;
+}
+#footer{
+}
+.Parts{
+	color: white;
+	font-size: 18px;
+}
+.URL{
+	text-decoration: none;
+	color: white;
+}
+.URL:hover{
+	color: yellow;
+}

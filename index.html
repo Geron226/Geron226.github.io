@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Устройство компьютера</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/Icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="block" id="header">
+		<p align="center"><span id="Title">Всё о компьютере</span></p>
+		<hr noshade color="Green" size="3">
+		<ul type="none" id="Nav">
+			<li><a class="URL" href="index.html">Устройство компьютера</a></li>
+			<li><a class="URL" href="History.html">История создания</a></li>
+			<li><a class="URL" href="More.html">Доп.информация</a></li>
+		</ul>
+	</div>
+	<div class="block" id="left-menu">
+		<ul type="square">
+			<li class="Parts" id="Motherboard"><a class="URL" href="Motherboard.html">Материнская плата</a></li>
+			<li class="Parts" id="CPU"><a class="URL" href="CPU.html">Процессор</a></li>
+			<li class="Parts" id="RAM"><a class="URL" href="RAM.html">ОЗУ</a></li>
+			<li class="Parts" id="Videocard"><a class="URL" href="Videocard.html">Видеокарта</a></li>
+			<li class="Parts" id="Hard-drive"><a class="URL" href="Hard-drive.html">Жёсткий диск</a></li>
+			<li class="Parts" id="PSU"><a class="URL" href="PSU.html">Блок питания</a></li>
+			<li class="Parts" id="Cooling"><a class="URL" href="Cooling.html">Охлаждение</a></li>
+			<li class="Parts" id="Box"><a class="URL" href="index.html">На главную</a></li>
+		</ul>
+		<p id="portals" align="center">Полезные порталы:</p>
+		<p align="center">
+			<a href="https://ru.stackoverflow.com/" target="blank"><img id="portals-images" src="images/Stack.png"></a>
+		    <a href="https://habr.com/ru/" target="blank"><img id="portals-images" src="images/Habr.png"></a>
+		</p>
+	</div>
+	<div class="block" id="main">
+		<p id="Dynmap" align="center">
+			Современный ПК:<br><img usemap="#PartsNav" src="images/Computer.png">
+			<map name="PartsNav">
+				<area shape="rect" coords="210, 232, 270, 250" href="Motherboard.html">
+				<area shape="rect" coords="95, 252, 270, 285" href="Videocard.html">
+				<area shape="rect" coords="240, 152, 266, 220" href="RAM.html">
+				<area shape="poly" coords="184, 434, 184, 420, 244, 410, 249, 415, 249, 448, 232, 449" href="Hard-drive.html">
+				<area shape="poly" coords="66, 412, 66, 357, 168, 350, 234, 360, 180, 366, 180, 437, 161, 437" href="PSU.html">
+				<area shape="poly" coords="138, 120, 204, 120, 205, 144, 238, 152, 238, 214, 138, 214" href="Cooling.html">
+			</map>
+		</p>
+		<p align="center" style="font-size: 26px; color: white; font-style: italic;">
+			Выберите соотвестствующую деталь в меню или воспользуйстесь интерактивным изображением
+		</p>
+	</div>
+	<div class="block" id="footer"><p style="color: white;" align="center">Статьи про компьютерные детали взяты с сайта wikipedia.org. Изображение компьютера позимствовано с сайта rozeka.com.ua.<br>Все права защищены</p></div>
+</body>
+</html>
