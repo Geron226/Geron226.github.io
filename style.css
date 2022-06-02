@@ -16,7 +16,7 @@ body{
     text-align: center;
 }
 #Nav > li{
-	display: flex;
+	display: inline-block;
 	font-size: 24px;
 	color: white;
 	margin-left: 10%;
@@ -24,7 +24,7 @@ body{
 	font-style: italic;
 }
 #left-menu{
-	display: flex;
+	display: inline-block;
 	width: 20%;
 	height: 80%;
 }
@@ -38,7 +38,7 @@ body{
 	margin-bottom: 36px;
 }
 #main{
-	display: flex;
+	display: inline-block;
 	width: 70%;
 	height: 80%;
 }
