@@ -6,7 +6,7 @@ body{
 	background-color: #181407;
 }
 #header{
-	height: 100px;
+	height: 10%;
 }
 #Title{
     color: white;
@@ -26,21 +26,21 @@ body{
 #left-menu{
 	display: flex;
 	width: 20%;
-	height: 670px;
+	height: 80%;
 }
 #portals{
 	font-size: 28px;
 	color: white;
 }
 #portals-images{
-	width: 250px;
+	width: 20%;
 	margin-top: 36px;
 	margin-bottom: 36px;
 }
 #main{
 	display: flex;
 	width: 78%;
-	height: 670px;
+	height: 80%;
 }
 #Dynmap{
 	color: white;
